@@ -18,9 +18,9 @@ return array(
     'permission' => array(
     ),
     'icons' => array( //@todo: to be defined
-        64 => '/static/apps/osm/img/64/icon.png',
-        32 => '/static/apps/osm/img/32/icon.png',
-        16 => '/static/apps/osm/img/16/icon.png',
+        64 => 'static/apps/osm/img/64/icon.png',
+        32 => 'static/apps/osm/img/32/icon.png',
+        16 => 'static/apps/osm/img/16/icon.png',
     ),
     // Enhancer configuration sample
     'enhancers' => array(
