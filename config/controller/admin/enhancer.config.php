@@ -11,7 +11,7 @@
 return array(
     'popup' => array(
         'layout' => array(
-            'view' => 'osm::enhancer/popup',
+            'view' => 'ounziw_osm::enhancer/popup',
         ),
     ),
 );

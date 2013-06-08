@@ -8,7 +8,7 @@
  * @link http://ounziw.com
  */
 
-namespace Osm;
+namespace OunziwOsm;
 
 class Controller_Admin_Enhancer extends \Nos\Controller_Admin_Enhancer
 {

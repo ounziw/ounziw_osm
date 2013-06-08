@@ -8,7 +8,7 @@
  * @link http://ounziw.com
  */
 
-namespace Osm;
+namespace OunziwOsm;
 
 use Nos\Controller_Front_Application;
 

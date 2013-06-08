@@ -1,9 +1,15 @@
-OSM
-====
+OSM for Novius OS
+==================
 
 An Novius OS application to create an OSM map (iframe style) and display it.
 
 Many thanks to [Open Street Map](http://www.openstreetmap.org/) and everybody who commits OSM.
+
+**Install**
+
+Copy these files into your Novius OS's local/application.
+Go to your Novius OS's admin area, and activate "Open Street Map".
+In the wysiwyg editor on Page, click "Application", and you will find Open Street Map.
 
 **Licence**
 

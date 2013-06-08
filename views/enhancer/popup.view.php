@@ -41,9 +41,9 @@
 <div id="initbutton"  onclick="init()"><?= __('Click to Show Map') ?></div>
     <div id="canvas" style="width:425px; height:350px"></div>
 <div style="display:none;">
-    緯度：<?= \Fuel\Core\Form::input('lat', '', array('id' => 'lat'));?><br />
-    経度：<?= \Fuel\Core\Form::input('lon', '', array('id' => 'lon'));?><br />
-    ズームレベル：<?= \Fuel\Core\Form::input('zoom', '', array('id' => 'zoom'));?><br />
+    <?= __('Latitude') ?>: <?= \Fuel\Core\Form::input('lat', '', array('id' => 'lat'));?><br />
+    <?= __('Longitude') ?>: <?= \Fuel\Core\Form::input('lon', '', array('id' => 'lon'));?><br />
+    <?= __('Zoom') ?>: <?= \Fuel\Core\Form::input('zoom', '', array('id' => 'zoom'));?><br />
     <?= \Fuel\Core\Form::input('left', '', array('id' => 'left'));?><br />
     <?= \Fuel\Core\Form::input('right', '', array('id' => 'right'));?><br />
     <?= \Fuel\Core\Form::input('top', '', array('id' => 'top'));?><br />

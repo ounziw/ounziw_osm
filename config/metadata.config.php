@@ -10,26 +10,26 @@
 
 return array(
     'name'    => __('Open Street Map'),
-    'version' => '0.1', //@todo: to be defined
+    'version' => '0.1',
     'provider' => array(
-        'name' => 'Fumito MIZUNO', //@todo: to be defined
+        'name' => 'Fumito MIZUNO',
     ),
-    'namespace' => "Osm",
+    'namespace' => "OunziwOsm",
     'permission' => array(
     ),
-    'icons' => array( //@todo: to be defined
-        64 => '/static/apps/osm/img/64/icon.png',
-        32 => '/static/apps/osm/img/32/icon.png',
-        16 => '/static/apps/osm/img/16/icon.png',
+    'icons' => array(
+        64 => 'static/apps/ounziw_osm/img/64/icon.png',
+        32 => 'static/apps/ounziw_osm/img/32/icon.png',
+        16 => 'static/apps/ounziw_osm/img/16/icon.png',
     ),
     // Enhancer configuration sample
     'enhancers' => array(
         'osm' => array( // key must be defined
             'title' => __('Open Street Map'),
             'desc'  => '',
-            'enhancer' => 'osm/front/main',
+            'enhancer' => 'ounziw_osm/front/main',
             'dialog' => array(
-                'contentUrl' => 'admin/osm/enhancer/popup',
+                'contentUrl' => 'admin/ounziw_osm/enhancer/popup',
                 'width' => 600,
                 'height' => 600,
                 'ajax' => true,
