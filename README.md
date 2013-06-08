@@ -15,7 +15,7 @@ In the wysiwyg editor on Page, click "Application", and you will find Open Stree
 
 You will find "Click to Show Map" on the popup screen. Please click it, then you will get an OSM map. (It may take time, since the map data will come via internet.)
 
-[editing OSM map](osm.png)
+![editing OSM map](osm.png)
 
 **Licence**
 
